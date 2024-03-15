@@ -1,0 +1,20 @@
+{
+  "name": "@pnpm-starter/demo",
+  "private": true,
+  "author": "kasuie",
+  "license": "",
+  "engines": {
+    "pnpm": ">=7"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@pnpm-starter/utils": "workspace:^"
+  },
+  "devDependencies": {
+    "vite": "3.2.3",
+    "vitest": "0.25.1"
+  }
+}
